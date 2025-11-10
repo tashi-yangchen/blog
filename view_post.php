@@ -3,6 +3,7 @@ require_once 'includes/auth_check.php';
 // Include the database connection
 require_once 'config/db.php';
 require_once 'includes/header.php';
+require_once "includes/navbar.php";
 
 // Check if an ID is provided in the URL (e.g., view_post.php?id=3) a
 if (isset($_GET['id'])) {

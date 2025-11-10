@@ -26,6 +26,8 @@ if (!isset($_SESSION['user_id'])) {
     }
 ?>
 
+<link type="stylesheet" href="/assets/css/index_style.css">
+<?php require_once "includes/navbar.php" ?>
 
 <div class="bg-light py-3 mb-3 border-bottom shadow-sm">
     <div class="container">
@@ -53,7 +55,7 @@ if (!isset($_SESSION['user_id'])) {
             </div>
         </div>
     <?php endforeach; ?>
-</div>
+    </div>
 
 <?php else: ?>
     <p>No posts found. Be the first to write one!</p>

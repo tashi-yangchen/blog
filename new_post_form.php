@@ -1,6 +1,6 @@
 <?php require_once 'includes/auth_check.php'; ?>
 <?php require_once 'includes/header.php'; ?>
-
+<?php require_once "includes/navbar.php" ?>
 
 <div class="bg-light py-3 border-bottom shadow-sm">
     <div class="container">
